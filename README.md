@@ -14,12 +14,13 @@ After setting up, you can run the application using [foreman]:
 
 [foreman]: http://ddollar.github.io/foreman/
 
-Guidelines
+Task
 ----------
 
-Use the following guides for getting things done, programming well, and
-programming in style.
+The `rake` command, will run all the specs in the project. You should make all
+the specs pass.
 
-* [Protocol](http://github.com/thoughtbot/guides/blob/master/protocol)
-* [Best Practices](http://github.com/thoughtbot/guides/blob/master/best-practices)
-* [Style](http://github.com/thoughtbot/guides/blob/master/style)
+There are currently 7 failing specs.
+
+* `rspec spec/models/user_spec` will allow you to run a single spec. Just pass
+  in the file as you see above
