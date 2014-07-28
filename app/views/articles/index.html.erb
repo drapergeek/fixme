@@ -1,0 +1,11 @@
+<h1>Articles</h1>
+
+<ul>
+<%= render @articles %>
+</ul>
+
+<%= simple_form_for @new_article do |form| %>
+  <%= form.input :name %>
+  <%= form.input :body %>
+  <%= form.button :submit %>
+<% end %>
