@@ -17,6 +17,9 @@ After setting up, you can run the application using [foreman]:
 Rails Task
 ----------
 
+* Run `rake db:migrate && rake db:test:prepare` to get the database setup. You
+  will not need to any columns or tables to the database.
+
 The `rake` command, will run all the specs in the project. You should make all
 the specs pass.
 
